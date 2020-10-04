@@ -17,7 +17,7 @@ application.config['SECRET_KEY'] = 'hard to guess string'
 bootstrap = Bootstrap(application)
 #application = Bootstrap(application)
 
-application.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://admin:0yadunfe@miocodedbv02.cw8is49lrvxb.us-east-2.rds.amazonaws.com/miocodedbv02'
+application.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://admin:0yadunfe@miocodedbv02.cw8is49lrvxb.us-east-2.rds.amazonaws.com/miocodedbv02'
 application.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 """
